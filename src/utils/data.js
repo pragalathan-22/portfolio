@@ -6,13 +6,16 @@ export const SKILLS = [
       { skill: 'HTML5', percentage: '70%' },
       { skill: 'CSS', percentage: '60%' },
       { skill: 'JavaScript', percentage: '50%' },
-      { skill: 'React.js', percentage: '60%' },
+  // Added React Native
     ],
   },
   {
     title: 'Backend',
     icon: './assets/images/icons8-backend-development-48.png',
-    skills: [{ skill: 'Python', percentage: '70%' }],
+    skills: [
+      { skill: 'Python', percentage: '70%' },
+      { skill: 'Node.js', percentage: '60%' },  // Added Node.js
+    ],
   },
   {
     title: 'Tools',
@@ -20,19 +23,21 @@ export const SKILLS = [
     skills: [
       { skill: 'Git & GitHub', percentage: '50%' },
       { skill: 'Visual Studio Code', percentage: '80%' },
-      { skill: 'Responsive Design', percentage: '60%' },
+      { skill: 'Firebase', percentage: '60%' },  // Added Firebase
     ],
   },
   {
-    title: 'Soft Skill',
+    title: 'FrameWork',
     icon: './assets/images/icons8-user-settings-48.png',
     skills: [
-      { skill: 'Problem-Solving', percentage: '80%' },
-      { skill: 'Collaboration', percentage: '80%' },
-      { skill: 'Attention to Detail', percentage: '75%' },
+      { skill: 'REST Framework', percentage: '60%' },  // Added REST Framework
+      { skill: 'Django Framework', percentage: '70%' },
+      { skill: 'React Native', percentage: '70%' },
+      { skill: 'React.js', percentage: '60%' },
     ],
   },
 ];
+
 
 export const WORK_EXPERIENCE=[
   {
